@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.12.0")
+            .exact("15.13.0")
         ),
         .package(
             url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPAppLovinAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-AppLovin/releases/download/15.12.0/TPAppLovinAdapter-15.12.0.xcframework.zip",
-            checksum: "2032d0712ae6e042a508d95e5f94f30d8a636eb048db9c6d823fd8346cab5e29"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-AppLovin/releases/download/15.13.0/TPAppLovinAdapter-15.13.0.xcframework.zip",
+            checksum: "d8294a4cd469930654cd4703ce89a1e121bb0ddb94efe329f06b3b83092e7900"
         ),
     ]
 )
